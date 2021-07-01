@@ -1,0 +1,46 @@
+.gallery img{
+    width: 100%;
+}
+
+#menu{
+    width: 100%;
+    height: 40px;
+    background-color: darkcyan;
+    padding-top: 12px;
+}
+
+#menu a{
+    color: azure;
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 800;
+    
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#menu a:hover{
+    color: darkgrey
+}
+
+#menu-bar a{
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+    font-size: 14px;
+    font-family: Helvetica, sans-serif;
+    
+    background-image: url(images/image-buttons/menu-button.gif);
+    display: block;
+    width: 128px;
+    height: 25px;
+    padding-left: 18px;
+    padding-top: 2px;
+    float: left;
+}
+
+#menu-bar a:hover{
+    background-image: url(images/image-buttons/menu-button-hover.gif);
+    color: #ffffff;
+}
